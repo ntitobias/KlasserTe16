@@ -10,6 +10,17 @@ namespace KlasserTe16
     {
         static void Main(string[] args)
         {
+
+            Fighter player1 = new Fighter();
+            Console.WriteLine("Välkommen " + player1.namn);
+
+            Fighter player2 = new Fighter();
+            Console.WriteLine("Välkommen du också " + player2.namn);
+
+            Console.ReadKey();
+
         }
     }
+
+
 }
